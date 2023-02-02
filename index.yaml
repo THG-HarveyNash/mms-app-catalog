@@ -3,7 +3,7 @@ entries:
   artemis:
   - apiVersion: v2
     appVersion: 2.21.0
-    created: "2023-02-02T17:52:37.802254Z"
+    created: "2023-02-02T18:25:41.076472Z"
     description: A Helm chart for Kubernetes
     digest: 5fe52d34afc6d1f383aa4c93682ad97815853aa06ebba0f2342a25a5b069e7eb
     name: artemis
@@ -14,7 +14,7 @@ entries:
   jaeger:
   - apiVersion: v2
     appVersion: 1.39.0
-    created: "2023-02-02T17:52:37.806663Z"
+    created: "2023-02-02T18:25:41.086209Z"
     dependencies:
     - condition: provisionDataStore.cassandra
       name: cassandra
@@ -58,10 +58,46 @@ entries:
     urls:
     - jaeger-1.0.0.tgz
     version: 0.67.0
+  opensearch:
+  - apiVersion: v2
+    appVersion: 2.5.0
+    created: "2023-02-02T18:25:41.090042Z"
+    description: A Helm chart for OpenSearch
+    digest: f52645f2147f981bebec5d8a59f6e5365320e46a6d9f406e2fd641bc7a221409
+    maintainers:
+    - name: DandyDeveloper
+    - name: bbarani
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch
+    type: application
+    urls:
+    - opensearch-2.10.0.tgz
+    version: 2.10.0
+  opensearch-dashboards:
+  - apiVersion: v2
+    appVersion: 2.5.0
+    created: "2023-02-02T18:25:41.090937Z"
+    description: A Helm chart for OpenSearch Dashboards
+    digest: a880a05d137d936e5065583cfdf3875a9ce463214634442b7c2d8d2ebcb139aa
+    maintainers:
+    - name: DandyDeveloper
+    - name: bbarani
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch-dashboards
+    type: application
+    urls:
+    - opensearch-dashboards-2.8.0.tgz
+    version: 2.8.0
   vault:
   - apiVersion: v2
     appVersion: 1.12.1
-    created: "2023-02-02T17:52:37.820731Z"
+    created: "2023-02-02T18:25:41.107202Z"
     description: Official HashiCorp Vault Chart
     digest: b6fff63e0934af25b770a482dedc665a07e1d3e470fba93b352f54f104927b18
     home: https://www.vaultproject.io
@@ -84,4 +120,4 @@ entries:
     urls:
     - vault-0.23.0.tgz
     version: 0.23.0
-generated: "2023-02-02T17:52:37.801482Z"
+generated: "2023-02-02T18:25:41.075655Z"
