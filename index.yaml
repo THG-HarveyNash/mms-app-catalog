@@ -3,7 +3,7 @@ entries:
   artemis:
   - apiVersion: v2
     appVersion: 2.21.0
-    created: "2023-02-03T13:32:13.69957Z"
+    created: "2023-02-03T14:11:17.4809Z"
     description: A Helm chart for Kubernetes
     digest: 5fe52d34afc6d1f383aa4c93682ad97815853aa06ebba0f2342a25a5b069e7eb
     name: artemis
@@ -14,7 +14,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 7.17.3
-    created: "2023-02-03T13:32:13.701433Z"
+    created: "2023-02-03T14:11:17.483288Z"
     description: Official Elastic helm chart for Elasticsearch
     digest: 3f5ce630a04206b6034660cf9529fb750b2940e8594c0f576127b3cc7ca15140
     home: https://github.com/elastic/helm-charts
@@ -28,10 +28,27 @@ entries:
     urls:
     - elasticsearch-7.17.3.tgz
     version: 7.17.3
+  filebeat:
+  - apiVersion: v1
+    appVersion: 8.5.1
+    created: "2023-02-03T14:11:17.484704Z"
+    description: Official Elastic helm chart for Filebeat
+    digest: 71f91a1bca6fc8448b687a6807547fc78d65fcfcf4bb9391089c0778fd361169
+    home: https://github.com/elastic/helm-charts
+    icon: https://helm.elastic.co/icons/beats.png
+    maintainers:
+    - email: helm-charts@elastic.co
+      name: Elastic
+    name: filebeat
+    sources:
+    - https://github.com/elastic/beats
+    urls:
+    - filebeat-8.5.1.tgz
+    version: 8.5.1
   jaeger:
   - apiVersion: v2
     appVersion: 1.39.0
-    created: "2023-02-03T13:32:13.70528Z"
+    created: "2023-02-03T14:11:17.489685Z"
     dependencies:
     - condition: provisionDataStore.cassandra
       name: cassandra
@@ -78,7 +95,7 @@ entries:
   opensearch:
   - apiVersion: v2
     appVersion: 2.5.0
-    created: "2023-02-03T13:32:13.707092Z"
+    created: "2023-02-03T14:11:17.491278Z"
     description: A Helm chart for OpenSearch
     digest: f52645f2147f981bebec5d8a59f6e5365320e46a6d9f406e2fd641bc7a221409
     maintainers:
@@ -96,7 +113,7 @@ entries:
   opensearch-dashboards:
   - apiVersion: v2
     appVersion: 2.5.0
-    created: "2023-02-03T13:32:13.70798Z"
+    created: "2023-02-03T14:11:17.492067Z"
     description: A Helm chart for OpenSearch Dashboards
     digest: a880a05d137d936e5065583cfdf3875a9ce463214634442b7c2d8d2ebcb139aa
     maintainers:
@@ -114,7 +131,7 @@ entries:
   vault:
   - apiVersion: v2
     appVersion: 1.12.1
-    created: "2023-02-03T13:32:13.72241Z"
+    created: "2023-02-03T14:11:17.508015Z"
     description: Official HashiCorp Vault Chart
     digest: b6fff63e0934af25b770a482dedc665a07e1d3e470fba93b352f54f104927b18
     home: https://www.vaultproject.io
@@ -137,4 +154,4 @@ entries:
     urls:
     - vault-0.23.0.tgz
     version: 0.23.0
-generated: "2023-02-03T13:32:13.699094Z"
+generated: "2023-02-03T14:11:17.480146Z"
