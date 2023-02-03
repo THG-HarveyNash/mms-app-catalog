@@ -3,7 +3,7 @@ entries:
   artemis:
   - apiVersion: v2
     appVersion: 2.21.0
-    created: "2023-02-03T10:30:18.297935Z"
+    created: "2023-02-03T12:45:49.537514Z"
     description: A Helm chart for Kubernetes
     digest: 5fe52d34afc6d1f383aa4c93682ad97815853aa06ebba0f2342a25a5b069e7eb
     name: artemis
@@ -14,7 +14,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 8.5.1
-    created: "2023-02-03T10:30:18.301086Z"
+    created: "2023-02-03T12:45:49.540686Z"
     description: Official Elastic helm chart for Elasticsearch
     digest: 7a217f67ba1220d93ca265b71f086437ca6755b272bc821351e7b59ac179065d
     home: https://github.com/elastic/helm-charts
@@ -31,7 +31,7 @@ entries:
   jaeger:
   - apiVersion: v2
     appVersion: 1.39.0
-    created: "2023-02-03T10:30:18.303716Z"
+    created: "2023-02-03T12:45:49.544547Z"
     dependencies:
     - condition: provisionDataStore.cassandra
       name: cassandra
@@ -78,7 +78,7 @@ entries:
   opensearch:
   - apiVersion: v2
     appVersion: 2.5.0
-    created: "2023-02-03T10:30:18.305307Z"
+    created: "2023-02-03T12:45:49.546242Z"
     description: A Helm chart for OpenSearch
     digest: f52645f2147f981bebec5d8a59f6e5365320e46a6d9f406e2fd641bc7a221409
     maintainers:
@@ -96,7 +96,7 @@ entries:
   opensearch-dashboards:
   - apiVersion: v2
     appVersion: 2.5.0
-    created: "2023-02-03T10:30:18.306135Z"
+    created: "2023-02-03T12:45:49.547087Z"
     description: A Helm chart for OpenSearch Dashboards
     digest: a880a05d137d936e5065583cfdf3875a9ce463214634442b7c2d8d2ebcb139aa
     maintainers:
@@ -114,7 +114,7 @@ entries:
   vault:
   - apiVersion: v2
     appVersion: 1.12.1
-    created: "2023-02-03T10:30:18.321617Z"
+    created: "2023-02-03T12:45:49.561336Z"
     description: Official HashiCorp Vault Chart
     digest: b6fff63e0934af25b770a482dedc665a07e1d3e470fba93b352f54f104927b18
     home: https://www.vaultproject.io
@@ -137,4 +137,4 @@ entries:
     urls:
     - vault-0.23.0.tgz
     version: 0.23.0
-generated: "2023-02-03T10:30:18.297386Z"
+generated: "2023-02-03T12:45:49.536813Z"
