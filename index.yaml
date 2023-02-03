@@ -26,7 +26,7 @@ entries:
     sources:
     - https://github.com/elastic/elasticsearch
     urls:
-    - elasticsearch-8.5.1.tgz
+    - elasticsearch-7.17.3.tgz
     version: 7.17.3
   jaeger:
   - apiVersion: v2
