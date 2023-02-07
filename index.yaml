@@ -3,7 +3,7 @@ entries:
   artemis:
   - apiVersion: v2
     appVersion: 2.21.0
-    created: "2023-02-06T17:50:51.488598Z"
+    created: "2023-02-07T08:26:24.074381Z"
     description: A Helm chart for Kubernetes
     digest: 5fe52d34afc6d1f383aa4c93682ad97815853aa06ebba0f2342a25a5b069e7eb
     name: artemis
@@ -14,7 +14,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 7.17.3
-    created: "2023-02-06T17:50:51.49085Z"
+    created: "2023-02-07T08:26:24.076765Z"
     description: Official Elastic helm chart for Elasticsearch
     digest: 3f5ce630a04206b6034660cf9529fb750b2940e8594c0f576127b3cc7ca15140
     home: https://github.com/elastic/helm-charts
@@ -31,7 +31,7 @@ entries:
   filebeat:
   - apiVersion: v1
     appVersion: 8.5.1
-    created: "2023-02-06T17:50:51.495544Z"
+    created: "2023-02-07T08:26:24.082211Z"
     description: Official Elastic helm chart for Filebeat
     digest: 71f91a1bca6fc8448b687a6807547fc78d65fcfcf4bb9391089c0778fd361169
     home: https://github.com/elastic/helm-charts
@@ -47,7 +47,7 @@ entries:
     version: 8.5.1
   - apiVersion: v1
     appVersion: 8.1.0
-    created: "2023-02-06T17:50:51.49413Z"
+    created: "2023-02-07T08:26:24.080627Z"
     description: Official Elastic helm chart for Filebeat
     digest: b967a84e74c0c04af776135603eaa636bc44a6d6b4a88f4ed4cdd5bcf2b0c3ca
     home: https://github.com/elastic/helm-charts
@@ -64,7 +64,7 @@ entries:
   jaeger:
   - apiVersion: v2
     appVersion: 1.39.0
-    created: "2023-02-06T17:50:51.497901Z"
+    created: "2023-02-07T08:26:24.08442Z"
     dependencies:
     - condition: provisionDataStore.cassandra
       name: cassandra
@@ -111,7 +111,7 @@ entries:
   logstash:
   - apiVersion: v1
     appVersion: 8.5.1
-    created: "2023-02-06T17:50:51.499459Z"
+    created: "2023-02-07T08:26:24.08598Z"
     description: Official Elastic helm chart for Logstash
     digest: 2179120554e44236a4daf5c53fbf3aa97874ade464c3c35f0edc5fe223da6f4e
     home: https://github.com/elastic/helm-charts
@@ -128,7 +128,7 @@ entries:
   mms-amazon-adapter-be:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-06T17:50:51.500365Z"
+    created: "2023-02-07T08:26:24.089201Z"
     description: A Helm chart for Kubernetes
     digest: 8ede70fb1961ea9dc5bbc62f78fdf04a5e5e13a7a187015e33da6fe17f08f4fb
     name: mms-amazon-adapter-be
@@ -139,7 +139,7 @@ entries:
   mms-artemis:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-06T17:50:51.500935Z"
+    created: "2023-02-07T08:26:24.089754Z"
     description: A Helm chart for Kubernetes
     digest: 271acb5a970ac03cecafe4822337042816bf13e73a278fc2e32849b5f370bd1b
     name: mms-artemis
@@ -150,7 +150,7 @@ entries:
   mms-configmap:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-06T17:50:51.501556Z"
+    created: "2023-02-07T08:26:24.090532Z"
     description: A Helm chart for Kubernetes
     digest: e12330f81c3c746ce07b206fdead8dd74a40f1393976a17df47c9960af2e719c
     maintainers:
@@ -163,7 +163,7 @@ entries:
   mms-flyway-migration-job:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-06T17:50:51.502102Z"
+    created: "2023-02-07T08:26:24.091077Z"
     description: A Helm chart for Kubernetes
     digest: 73bfb0fc0419775082ac85ea5de11d8733cc8192736ec818c6176ee4f8d2011c
     maintainers:
@@ -176,7 +176,7 @@ entries:
   mms-inventory-service-be:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-06T17:50:51.503616Z"
+    created: "2023-02-07T08:26:24.091708Z"
     description: A Helm chart for Kubernetes
     digest: bb4f706aaeed3e49cbca6f4ce3841ecca2d8805fb012a5b1bc9ccc76bea309c6
     maintainers:
@@ -189,7 +189,7 @@ entries:
   mms-job-management-be:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-06T17:50:51.504215Z"
+    created: "2023-02-07T08:26:24.092763Z"
     description: A Helm chart for Kubernetes
     digest: a0b7dd63c74ed71b3450b94b85ddb62fa515cdaa1a533b330a92f9eebd01fe7f
     name: mms-job-management-be
@@ -200,7 +200,7 @@ entries:
   mms-management-service-be:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-06T17:50:51.50491Z"
+    created: "2023-02-07T08:26:24.09328Z"
     description: A Helm chart for Kubernetes
     digest: 55e8b358c5e1a01c0b833e7bec7b8ad92cafd4293744596e354698fb57e77d61
     maintainers:
@@ -213,7 +213,7 @@ entries:
   mms-management-ui-fe:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-06T17:50:51.505582Z"
+    created: "2023-02-07T08:26:24.093829Z"
     description: A Helm chart for Kubernetes
     digest: 7fd21607552c457bba49b01bbef13976eb3dd61856ff3b5470f78b3c6e935f69
     name: mms-management-ui-fe
@@ -224,7 +224,7 @@ entries:
   mms-marketplace-service-be:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-06T17:50:51.506111Z"
+    created: "2023-02-07T08:26:24.094387Z"
     description: A Helm chart for Kubernetes
     digest: 4990d6a1c251fca54845ec68d3e26a49347404d4e5d048bae64bd4c124c1f6b1
     name: mms-marketplace-service-be
@@ -235,7 +235,7 @@ entries:
   mms-order-service-be:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-06T17:50:51.506643Z"
+    created: "2023-02-07T08:26:24.094937Z"
     description: A Helm chart for Kubernetes
     digest: ff20fc2db807b1cad40a217887b298df8cba972334c730ea45bed55d4ddfd260
     maintainers:
@@ -248,7 +248,7 @@ entries:
   mms-platform-charts:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-06T17:50:51.507068Z"
+    created: "2023-02-07T08:26:24.095426Z"
     dependencies:
     - condition: charts.reloader.enable
       name: reloader
@@ -267,7 +267,7 @@ entries:
   mms-secret:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-06T17:50:51.507699Z"
+    created: "2023-02-07T08:26:24.096004Z"
     description: A Helm chart for Kubernetes
     digest: 72ac42274749f245ab1730ae4f1d3616a0b6e012a8df10fbe4458b0efa18597c
     maintainers:
@@ -280,7 +280,7 @@ entries:
   mms-service-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-06T17:50:51.508579Z"
+    created: "2023-02-07T08:26:24.096678Z"
     description: A Helm chart for Kubernetes
     digest: 2f51017a9332ee918bd756d127d359deddd01aaaa58b8ae9e91f29cf42b549e1
     name: mms-service-chart
@@ -291,7 +291,7 @@ entries:
   mms-thg-fulfilment-adapter-be:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-06T17:50:51.509079Z"
+    created: "2023-02-07T08:26:24.097155Z"
     description: A Helm chart for Kubernetes
     digest: 73e1b1aec37627fc323d2a9fa70118c73a71804007f540b153d20c2def54b1a5
     maintainers:
@@ -304,7 +304,7 @@ entries:
   opensearch:
   - apiVersion: v2
     appVersion: 2.5.0
-    created: "2023-02-06T17:50:51.510997Z"
+    created: "2023-02-07T08:26:24.098716Z"
     description: A Helm chart for OpenSearch
     digest: f52645f2147f981bebec5d8a59f6e5365320e46a6d9f406e2fd641bc7a221409
     maintainers:
@@ -322,7 +322,7 @@ entries:
   opensearch-dashboards:
   - apiVersion: v2
     appVersion: 2.5.0
-    created: "2023-02-06T17:50:51.511811Z"
+    created: "2023-02-07T08:26:24.100032Z"
     description: A Helm chart for OpenSearch Dashboards
     digest: a880a05d137d936e5065583cfdf3875a9ce463214634442b7c2d8d2ebcb139aa
     maintainers:
@@ -337,10 +337,34 @@ entries:
     urls:
     - opensearch-dashboards-2.8.0.tgz
     version: 2.8.0
+  reloader:
+  - apiVersion: v1
+    appVersion: v1.0.4
+    created: "2023-02-07T08:26:24.100792Z"
+    description: Reloader chart that runs on kubernetes
+    digest: 485124d5949c05a31a3680cae9298de8eafcd3792ae6ac182a7a2761bcfe1750
+    home: https://github.com/stakater/Reloader
+    icon: https://raw.githubusercontent.com/stakater/Reloader/master/assets/web/reloader-round-100px.png
+    keywords:
+    - Reloader
+    - kubernetes
+    maintainers:
+    - email: hello@stakater.com
+      name: Stakater
+    - email: rasheed@stakater.com
+      name: rasheedamir
+    - email: faizan.ahmad55@outlook.com
+      name: faizanahmad055
+    name: reloader
+    sources:
+    - https://github.com/stakater/Reloader
+    urls:
+    - reloader-v1.0.4.tgz
+    version: v1.0.4
   vault:
   - apiVersion: v2
     appVersion: 1.12.1
-    created: "2023-02-06T17:50:51.514166Z"
+    created: "2023-02-07T08:26:24.102967Z"
     description: Official HashiCorp Vault Chart
     digest: ad34a9deee95a57ee8964d7eea63bc7898a5a3d75a408db715e1e355eed922c6
     home: https://www.vaultproject.io
@@ -363,4 +387,4 @@ entries:
     urls:
     - vault-0.23.0.tgz
     version: 0.23.0
-generated: "2023-02-06T17:50:51.487876Z"
+generated: "2023-02-07T08:26:24.073654Z"
